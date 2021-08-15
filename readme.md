@@ -1,2 +1,2 @@
 Website Preview
-<img scr="preview.png">
+<img scr="preview.png"/>
