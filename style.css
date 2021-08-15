@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+}
+
+header{
+    background-image: url(../Purple\ Yellow\ Black\ Neon\ SciFi\ YouTube\ Channel\ Art.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #000;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #d400ff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+}
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #d400ff;
+    padding: 10px 30px;
+    color: #fff222;
+    text-decoration: none;
+    transition: 0.6s es;
+}
+
+.btn:hover{
+    background-color: #d400ff;
+    color: #000;
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #000;
+}
+
+.sec h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #fff;
+}
